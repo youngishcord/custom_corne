@@ -72,7 +72,7 @@
     &kp ESC      &kp Q        &kp W        &kp E        &kp R        &kp T              &kp Y        &kp U        &kp I        &kp O        &kp P        &kp LBKT
     &kp TAB      &kp A        &kp S        &kp D        &kp F        &kp G              &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp RBKT
     &kp LSHIFT   &kp Z        &kp X        &kp C        &kp V        &kp B              &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     &kp SQT
-                              &mo NUM      &kp LCTRL    &kp ENTER    &kp LALT LSFT      &none        &kp BSPC     &kp SPACE    &mo NUM
+                              &mo NUM      &kp LCTRL    &kp ENTER    &none              &none        &kp BSPC     &kp SPACE    &mo NUM
             >;
             
             // ТУТ УКАЗЫВАЕТСЯ НАЗНАЧЕНИЕ ЭНКОДЕРА В СЛОЕ
@@ -98,8 +98,8 @@
  */
             bindings = <
     &kp ESC        &kp F1        &kp F2       &kp F3       &kp F4       &kp F5             &kp MINUS    &kp N7       &kp N8       &kp N9    &kp PLUS     &kp KP_EQUAL
-    &none          &none         &none        &none        &none        &none              &kp STAR     &kp N4       &kp N5       &kp N6    &kp N0       &kp F12
-    &none          &none         &none        &none        &none        &none              &kp BSLH     &kp N1       &kp N2       &kp N3    &kp KP_COMMA &none
+    &trans         &trans        &trans       &trans       &trans       &trans             &kp STAR     &kp N4       &kp N5       &kp N6    &kp N0       &kp F12
+    &trans         &trans        &trans       &trans       &trans       &trans             &kp BSLH     &kp N1       &kp N2       &kp N3    &kp KP_COMMA &kp LALT
                                  &trans       &trans       &trans       &trans             &trans       &trans       &trans       &trans
             >;
             
