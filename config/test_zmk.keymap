@@ -9,8 +9,7 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 50 // 10
 
 #define QWERTY 0
-#define EXTRA 1
-#define NUM 2
+#define NUM 1
 
 /*
  * КОДЫ КЛАВИШ: https://zmk.dev/docs/codes 
