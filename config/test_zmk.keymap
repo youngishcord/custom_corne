@@ -109,7 +109,7 @@
             <&volume_encoder>;
         };
 
-        MEDIA {
+/*         MEDIA {
             display-name = "MEDIA";
 /* MEDIA
  *
@@ -135,6 +135,6 @@
             sensor-bindings = 
             <&scroll_encoder>, 
             <&volume_encoder>;
-        };
+        };*/
     };
 };
