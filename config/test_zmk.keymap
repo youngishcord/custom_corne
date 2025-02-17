@@ -126,7 +126,7 @@
  */
             bindings = <
     &trans         &trans         &trans         &trans         &trans         &trans             &trans         &trans       &kp UP         &trans         &trans         &trans
-    &trans         &trans         &trans         &trans         &bt BT_CLR     &bt BT_DISC        &trans         &kp LEFT     &kp DOWN       &kp RIGHT      &trans         &trans
+    &trans         &trans         &trans         &trans         &bt BT_CLR     &trans             &trans         &kp LEFT     &kp DOWN       &kp RIGHT      &trans         &trans
     &trans         &trans         &trans         &trans         &bt BT_PRV     &bt BT_NXT         &trans         &trans       &trans         &trans         &trans         &trans
                                   &trans         &trans         &trans         &bt BT_ON          &bt BT_OFF     &trans       &trans         &trans
             >;
