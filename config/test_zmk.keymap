@@ -64,7 +64,7 @@
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
  * |LSHIFT |   Z   |   X   |   C   |   V   |   B   |               |   N   |   M   |   ,   |   .   |   /   |   "   |
  * "---------------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------"
- *                 |  NUM  | CTRL  | ENTER |   ?   |<---Encoder--->|   ?   | BSPC  | SPACE | MEDIA |	
+ *                 |  NUM  | CTRL  | ENTER |   ?   |<---Encoder--->|   ?   | SPACE | BSPC | MEDIA |	
  *                 "-------------------------------"               "-------------------------------"
  *
  */
@@ -72,7 +72,7 @@
     &kp ESC      &kp Q        &kp W        &kp E        &kp R        &kp T              &kp Y        &kp U        &kp I        &kp O        &kp P        &kp LBKT
     &kp TAB      &kp A        &kp S        &kp D        &kp F        &kp G              &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp RBKT
     &kp LSHIFT   &kp Z        &kp X        &kp C        &kp V        &kp B              &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     &kp SQT
-                              &mo NUM      &kp LCTRL    &kp ENTER    &none              &none        &kp BSPC     &kp SPACE    &mo NUM
+                              &mo NUM      &kp LCTRL    &kp ENTER    &none              &none        &kp SPACE     &kp BSPC    &mo MEDIA
             >;
             
             // ТУТ УКАЗЫВАЕТСЯ НАЗНАЧЕНИЕ ЭНКОДЕРА В СЛОЕ
@@ -125,7 +125,7 @@
  *
  */
             bindings = <
-    &bt K_LOCK     &trans        &trans       &trans       &trans       &trans             &trans       &trans       &kp UP       &trans    &trans       &trans
+    &kp K_LOCK     &trans        &trans       &trans       &trans       &trans             &trans       &trans       &kp UP       &trans    &trans       &trans
     &trans         &trans        &trans       &trans       &bt BT_CLR   &bt BT_DISC        &trans       &kp LEFT     &kp DOWN     &kp RIGHT &trans       &trans
     &trans         &trans        &trans       &trans       &bt BT_PRV   &bt BT_NXT         &trans       &trans       &trans       &trans    &trans       &trans
                                  &trans       &trans       &trans       &bt BT_ON          &bt BT_OFF   &trans       &trans       &trans
