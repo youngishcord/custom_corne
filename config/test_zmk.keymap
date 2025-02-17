@@ -10,7 +10,7 @@
 
 #define QWERTY 0
 #define NUM 1
-#define MEDIA 2
+#define ADDONS 2
 
 /*
  * КОДЫ КЛАВИШ: https://zmk.dev/docs/codes 
@@ -109,9 +109,9 @@
             <&volume_encoder>;
         };
 
-        MEDIA {
-            display-name = "MEDIA";
-/* MEDIA
+        ADDONS {
+            display-name = "ADDONS";
+/* ADDONS
  *
  * .-----------------------------------------------.               .-----------------------------------------------.
  * |  ESC  |   Q   |   W   |   E   |   R   |   T   |               |   -   |   7   |  UP   |   9   |   +   |   =   |
@@ -120,7 +120,7 @@
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
  * |LSHIFT |   Z   |   X   |   C   |BT_PRV |BT_NXT |               |   /   |   1   |   2   |   3   |   ,   |   "   |
  * "---------------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------"
- *                 |  NUM  | CTRL  | ENTER | BT_ON |<---Encoder--->| BT_OFF| BSPC  | SPACE | MEDIA |
+ *                 |  NUM  | CTRL  | ENTER | BT_ON |<---Encoder--->| BT_OFF| BSPC  | SPACE |ADDONS |
  *                 "-------------------------------"               "-------------------------------"
  *
  */
