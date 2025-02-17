@@ -72,7 +72,7 @@
     &kp ESC      &kp Q        &kp W        &kp E        &kp R        &kp T              &kp Y        &kp U        &kp I        &kp O        &kp P        &kp LBKT
     &kp TAB      &kp A        &kp S        &kp D        &kp F        &kp G              &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp RBKT
     &kp LSHIFT   &kp Z        &kp X        &kp C        &kp V        &kp B              &kp N        &kp M        &kp COMMA    &kp DOT      &kp FSLH     &kp SQT
-                              &mo NUM      &kp LCTRL    &kp ENTER    &none              &none        &kp SPACE     &kp BSPC    &mo MEDIA
+                              &mo NUM      &kp LCTRL    &kp ENTER    &none              &none        &kp SPACE     &kp BSPC    &mo ADDONS
             >;
             
             // ТУТ УКАЗЫВАЕТСЯ НАЗНАЧЕНИЕ ЭНКОДЕРА В СЛОЕ
@@ -92,7 +92,7 @@
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
  * |LSHIFT |   Z   |   X   |   C   |   V   |   B   |               |   /   |   1   |   2   |   3   |   ,   |   "   |
  * "---------------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------"
- *                 |  NUM  | CTRL  | ENTER |   ?   |<---Encoder--->|   ?   | BSPC  | SPACE | MEDIA |
+ *                 |  NUM  | CTRL  | ENTER |   ?   |<---Encoder--->|   ?   | BSPC  | SPACE |ADDONS |
  *                 "-------------------------------"               "-------------------------------"
  *
  */
