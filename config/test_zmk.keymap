@@ -46,12 +46,6 @@
         // alt_tab_scroll: alt_tab_scroll {
 
         // }
-        capslock_on_shift: mod-morph {
-            compatible = "zmk,behavior-mod-morph";
-            bindings = <&caps_word>;
-            mods = <(MOD_LSFT | MOD_RSFT)>;
-            tapping-term-ms = <300>; // Время для двойного нажатия (мс)
-        };
     };
 
 
