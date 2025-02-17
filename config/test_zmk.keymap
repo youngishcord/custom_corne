@@ -46,6 +46,12 @@
         // alt_tab_scroll: alt_tab_scroll {
 
         // }
+        capslock_on_shift: mod-morph {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&caps_word>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
+            tapping-term-ms = <300>; // Время для двойного нажатия (мс)
+        }
     };
 
 
@@ -97,7 +103,7 @@
  *
  */
             bindings = <
-    &trans         &kp F1        &kp F2       &kp F3       &kp F4       &kp F5             &kp MINUS    &kp N7       &kp N8       &kp N9    &kp PLUS     &kp KP_EQUAL
+    &trans         &kp F1        &kp F2       &kp F3       &kp F4       &kp F5             &kp MINUS    &kp N7       &kp N8       &kp N9    &kp EQUAL     &kp EQUAL
     &trans         &kp LALT      &trans       &trans       &trans       &trans             &kp STAR     &kp N4       &kp N5       &kp N6    &kp N0       &kp QMARK
     &trans         &trans        &trans       &trans       &trans       &trans             &kp BSLH     &kp N1       &kp N2       &kp N3    &kp KP_COMMA &kp LALT
                                  &trans       &trans       &trans       &trans             &trans       &trans       &trans       &trans
