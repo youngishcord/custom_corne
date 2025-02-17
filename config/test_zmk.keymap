@@ -114,7 +114,7 @@
 /* ADDONS
  *
  * .-----------------------------------------------.               .-----------------------------------------------.
- * |  ESC  |   Q   |   W   |   E   |   R   |   T   |               |   -   |   7   |  UP   |   9   |   +   |   =   |
+ * | PSCRN |   Q   |   W   |   E   |   R   |   T   |               |   -   |   7   |  UP   |   9   |   +   |   =   |
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
  * |  TAB  |   A   |   S   |   D   | BT_CLR|BT_DISC|               |   *   |   4   |   5   |   6   |   0   |   ?   |
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
@@ -125,7 +125,7 @@
  *
  */
             bindings = <
-    &trans         &trans         &trans         &trans         &trans         &trans             &trans         &trans       &kp UP         &trans         &trans         &trans
+    &kp PSCRN      &trans         &trans         &trans         &trans         &trans             &trans         &trans       &kp UP         &trans         &trans         &trans
     &trans         &trans         &trans         &trans         &bt BT_CLR     &trans             &trans         &kp LEFT     &kp DOWN       &kp RIGHT      &trans         &trans
     &trans         &trans         &trans         &trans         &bt BT_PRV     &bt BT_NXT         &trans         &trans       &trans         &trans         &trans         &trans
                                   &trans         &trans         &trans         &trans             &trans         &trans       &trans         &trans
