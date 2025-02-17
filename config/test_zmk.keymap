@@ -108,33 +108,5 @@
             <&scroll_encoder>, 
             <&volume_encoder>;
         };
-
-/*         MEDIA {
-            display-name = "MEDIA";
-/* MEDIA
- *
- * .-----------------------------------------------.               .-----------------------------------------------.
- * |  ESC  |   Q   |   W   |   E   |   R   |   T   |               |   -   |   7   |  UP   |   9   |   +   |   =   |
- * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
- * |  TAB  |   A   |   S   |   D   | BT_CLR|BT_DISC|               |   *   |   4   |   5   |   6   |   0   |   ?   |
- * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
- * |LSHIFT |   Z   |   X   |   C   |BT_PRV |BT_NXT |               |   /   |   1   |   2   |   3   |   ,   |   "   |
- * "---------------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------"
- *                 |  NUM  | CTRL  | ENTER | BT_ON |<---Encoder--->| BT_OFF| BSPC  | SPACE | MEDIA |
- *                 "-------------------------------"               "-------------------------------"
- *
- */
-            bindings = <
-    &trans         &trans         &trans         &trans         &trans         &trans             &trans         &trans       &kp UP         &trans         &trans         &trans
-    &trans         &trans         &trans         &trans         &bt BT_CLR     &trans             &trans         &kp LEFT     &kp DOWN       &kp RIGHT      &trans         &trans
-    &trans         &trans         &trans         &trans         &bt BT_PRV     &bt BT_NXT         &trans         &trans       &trans         &trans         &trans         &trans
-                                  &trans         &trans         &trans         &bt BT_ON          &bt BT_OFF     &trans       &trans         &trans
-            >;
-            
-            // ТУТ УКАЗЫВАЕТСЯ НАЗНАЧЕНИЕ ЭНКОДЕРА В СЛОЕ
-            sensor-bindings = 
-            <&scroll_encoder>, 
-            <&volume_encoder>;
-        };*/
     };
 };
