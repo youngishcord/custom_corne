@@ -97,7 +97,7 @@
  *
  */
             bindings = <
-    &trans         &kp F1        &kp F2       &kp F3       &kp F4       &kp F5             &kp MINUS    &kp N7       &kp N8       &kp N9    &kp EQUAL     &kp EQUAL
+    &kp ESC        &kp F1        &kp F2       &kp F3       &kp F4       &kp F5             &kp MINUS    &kp N7       &kp N8       &kp N9    &kp EQUAL     &kp EQUAL
     &trans         &kp LALT      &trans       &trans       &trans       &trans             &kp STAR     &kp N4       &kp N5       &kp N6    &kp N0       &kp QMARK
     &trans         &trans        &trans       &trans       &trans       &trans             &kp BSLH     &kp N1       &kp N2       &kp N3    &kp KP_COMMA &kp LALT
                                  &trans       &trans       &trans       &trans             &trans       &trans       &trans       &trans
@@ -116,11 +116,11 @@
  * .-----------------------------------------------.               .-----------------------------------------------.
  * | PSCRN |   Q   |   W   |   E   |   R   |   T   |               |   -   |   7   |  UP   |   9   |   +   |   =   |
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
- * |  TAB  |   A   |   S   |   D   | BT_CLR|BT_DISC|               |   *   |   4   |   5   |   6   |   0   |   ?   |
+ * | LSHIFT|   A   |   S   |   D   | BT_CLR|BT_DISC|               |   *   |   4   |   5   |   6   |   0   |   ?   |
  * |-------+-------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------|
- * |LSHIFT |   Z   |   X   |   C   |BT_PRV |BT_NXT |               |   /   |   1   |   2   |   3   |   ,   |   "   |
+ * |  CTRL |   Z   |   X   |   C   |BT_PRV |BT_NXT |               |   /   |   1   |   2   |   3   |   ,   |   "   |
  * "---------------+-------+-------+-------+-------|               |-------+-------+-------+-------+-------+-------"
- *                 |  NUM  | CTRL  | ENTER | BT_ON |<---Encoder--->| BT_OFF| BSPC  | SPACE |ADDONS |
+ *                 |  NUM  | CTRL  | ENTER |       |<---Encoder--->|       | BSPC  | SPACE |ADDONS |
  *                 "-------------------------------"               "-------------------------------"
  *
  */
