@@ -125,7 +125,7 @@
  *
  */
             bindings = <
-    &kp PSCRN      &trans         &trans         &trans         &trans         &trans             &trans         &trans       &kp UP         &trans         &trans         &trans
+    &kp PSCRN      &trans         &trans         &trans         &trans         &trans             &trans         &kp HOME     &kp UP         &kp END        &trans         &trans
     &trans         &trans         &trans         &trans         &bt BT_CLR     &trans             &trans         &kp LEFT     &kp DOWN       &kp RIGHT      &trans         &trans
     &trans         &kp LWIN       &trans         &trans         &bt BT_PRV     &bt BT_NXT         &trans         &trans       &trans         &trans         &trans         &trans
                                   &trans         &trans         &trans         &trans             &trans         &trans       &trans         &trans
